@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>SpaMar</title>
+</head>
+<body>
+
+    <!-- Aviso de descuento -->
+    <div class="discount-notice">
+        <p>Obtén un 10% de descuento con el código <strong>"BLACKFRIDAY"</strong>. ¡Aprovéchalo!</p>
+    </div>
+
+    <div id="cookieBanner" class="cookie-banner">
+        <p>¡Hola! Usamos cookies propias y de terceros para ofrecerte la mejor experiencia de navegación. ¿Quieres aceptar todas las cookies?</p>
+        <button onclick="acceptCookies()">Aceptar Todas</button>
+        <a href="#" onclick="openCookieSettings()">Configuración de Cookies</a>
+    </div>
+
+    <div id="cookieModal" class="cookie-modal">
+        <div class="cookie-modal-content">
+            <span class="close" onclick="closeCookieSettings()">&times;</span>
+            <h2>Configuración de Cookies</h2>
+            <p>Selecciona las opciones de cookies que deseas aceptar:</p>
+            <label><input type="checkbox" id="cookieOption1"> Recomendadas</label>
+            <label><input type="checkbox" id="cookieOption2"> Escenciales</label>
+            <button onclick="saveCookieSettings()">Guardar Configuración</button>
+        </div>
+    </div>
+
+    <header>
+        <div class="logo-container">
+            <img src="img\logospamar.png" alt="Logo">
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-pink">
+            <button class="navbar-toggler" type="button" data-t oggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Masajes">Masajes</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#acerca">Tarjeta de regalo</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="inicio" class="py-5 text-center">
+        <div class="container">
+            <h2>Bienvenido a SpaMar</h2>
+            <p>Descubre la serenidad y el bienestar en nuestro exclusivo spa.</p>
+        </div>
+    </section>
+
+    <section id="servicios" class="py-5 text-center">
+        <div class="container">
+            <h2>Servicios</h2>
+            <div class="row">
+                <!--JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="Masajes" class="py-5 text-center">
+        <div class="container">
+            <h2>Masajes</h2>
+            <!-- Contenido -->
+            <p>En SpaMar ofrecemos una amplia variedad de masajes relajantes, quiromasajes  y terapias especiales. Contamos, además, con  Packs Combinados de Spa y Masajes para lograr un  Momento único de Relax y Bienestar.</p>
+            <p>El masaje, antigua herramienta terapéutica,  alivia la tensión muscular, combate el dolor y promueve la Relajación, el Bienestar y la Salud. Mejora tu metabolismo y sistema circulatorio con nuestras técnicas profesionales.</p>
+            <p>¡Sumérgete en una experiencia de relax y bienestar incomparablecon nuestros Masajes relajantes y Terapias especiales!</p>
+        </section>
+
+        <section id="Masajesrelajantes" class="py-5 text-center">
+            <div class="container">
+            <h2><p>MASAJES RELAJANTES</p></h2>
+            <p>Se pueden encontrar gran variedad de enfoques, pero la mayoría de las técnicas de masaje relajante comparten movimientos suaves que generan una sensación de relajación y bienestar en el individuo. Por esta razón, son beneficiosos para aquellos que sufren de estrés, ansiedad o depresión, así como para aquellos que pasan mucho tiempo sentados o de pie, experimentando problemas leves de circulación  o incluso para aquellos con dolores musculares leves.</p>
+        </div>
+    
+        <section id="content">
+            <div class="block">
+                <img src="img\Masaje-Antiestrés.jpg" alt="Masaje Antiestrés Localizado o Completo">
+                <p>Masaje Antiestrés</p>
+                <p>25 min/29€</p>
+                <button class="buy-button">Comprar</button>
+            </div>
+
+                <div class="block">
+                    <img src="img\Masaje-de-cabeza-shampi.jpg" alt="Masaje de cabeza shampi">
+                    <p>Masaje Shampi</p>
+                    <p>25 min/32€</p>
+                    <button class="buy-button">Comprar</button>
+                </div>
+
+                <div class="block">
+                    <img src="img\Piernas-Cansadas.jpg" alt="Piernas Cansadas">
+                    <p>Piernas Cansadas</p>
+                    <p>25 min/32€</p>
+                    <button class="buy-button">Comprar</button>
+                </div>
+            </section>
+        </section>
+
+            <section id="portafolio" class="py-5 text-center">
+                <div class="container">
+                <h2><p>TERAPIAS ESPECIALES</p></h2>
+            <p>El estrés, las malas posturas y en ocasiones, el exceso de ejercicio, provocan sobrecarga o tensión muscular. Todos ellos pueden originar las temidas contracturas, que no son sino nudos o contracciones de nuestros músculos y que nos provocan molestias y dolor.
+            <p>Nuestras terapias especiales  están destinados a aliviar diversas sintomatologías:  tensión o sobrecarga muscular, aliviando las contracturas y oxigenando y devolviendo la flexibilidad a los músculos; retención de líquidos ; molestias específica del embarazo o del periodo posterior al mismo</p>
+        </div>
+
+        <section id="content">
+            <div class="block">
+                <img src="img\drenaje-linfatico.jpg" alt="Drenaje Linfatico">
+                <p>Drenaje Linfatico</p>
+                <p>50 min/55€</p>
+                <button class="buy-button">Comprar</button>
+            </div>
+
+                <div class="block">
+                    <img src="img\emabrazadzas.jpg" alt="Embarazadas">
+                    <p>Embarazadas</p>
+                    <p>50 min/55€</p>
+                    <button class="buy-button">Comprar</button>
+                </div>
+
+                    <div class="block">
+                        <img src="img\quiromasaje.jpg" alt="Quiromasaje">
+                        <p>Quiromasaje</p>
+                        <p>25 min/32€</p>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+                </section>
+            </section>
+
+                <section id="portafolio" class="py-5 text-center">
+                    <div class="container">
+                    <h2><p>COMBINADOS</p></h2>
+                    </div>
+    
+            <section id="content">
+                <div class="block">
+                    <img src="img\combinado_eden-400x400.jpg" alt="Combinado Eden">
+                    <p>Combinado Eden</p>
+                    <p>90€</p>
+                    <button class="buy-button">Comprar</button>
+                </div>
+    
+                    <div class="block">
+                        <img src="img\combinado_oriental-400x400.jpg" alt="Combinado Oriental">
+                        <p>Combinado Oriental</p>
+                        <p>115€</p>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+    
+                        <div class="block">
+                            <img src="img\combinado_special_men-400x400.jpg" alt="Combinado especial">
+                            <p>Combinado Men</p>
+                            <p>25 min/32€</p>
+                            <button class="buy-button">Comprar</button>
+                        </div>
+                    </section>
+                </section>
+
+
+    <section id="acerca" class="py-5 text-center">
+        <div class="container">
+            <h2>Tarjeta de regalo</h2>
+            <!-- Tarjeta de regalo -->
+            <p>Regala una Tarjeta Regalo para obsequiar una experiencia de Salud, Belleza o Relax</p>
+
+            <p>Las tarjetas regalo de SpaMar le permiten regalar un momento único de Belleza , Salud o Relax.</p>
+            
+            <p>En nuestra tienda online, dispone de un listado de nuestras ofertas, tratamientos, masajes, recorridos spa  y packs combinados. 
+                Podrá seleccionar los servicios deseados e incluirlos en el carrito de compra de forma rápida y sencilla. 
+                Completado el proceso de compra, recibirá por mail, en las 24 horas hábiles próximas a la compra,  la Tarjeta Regalo en formato PDF. 
+                Puede indicarnos el destinatario y/o texto a incluir y la personalizaremos. 
+                Podrá enviarla por mail o imprimirla, para entregársela a la persona deseada</p>
+            
+            <p>Los poseedores de  nuestras Tarjetas Regalo dispondrán de 90 días, desde la fecha de compra, para llamarnos por teléfono y reservar su experiencia.</p>
+        </div>
+    
+    
+    <!-- tienda -->
+    <section class="tienda">
+        <article class="producto">
+            <img src="img/Banner_Otono_Naranja-1200x1200.jpg" alt="Producto 1">
+            <h2>Masaje Vitalidad Otoñal</h2>
+            <p>Prepárese para abrazar el otoño con la energía y la vitalidad que le proporciona nuestro Masaje Vitalidad Otoñal.</p>
+            <p class="precio">50€</p>
+            <button onclick="agregarAlCarrito(1)">Agregar al Carrito</button>
+        </article>
+        
+        <article class="producto">
+            <img src="img/Banner_Otono_Parejas-1200x1200.jpg" alt="Producto 2">
+            <h2>Masaje confort Otoñal en Pareja</h2>
+            <p>En lugar de sentirse abatido por la transición del verano al otoño, aproveche la oportunidad de disfrutar de este
+                Masaje Confort Otoñal en Pareja</p>
+            <p class="precio">$80€</p>
+            <button onclick="agregarAlCarrito(1)">Agregar al Carrito</button>
+        </article>
+
+        <article class="producto">
+            <img src="img/Banner_Otono_Pindas-1200x1200.jpg" alt="Producto 3">
+            <h2>Masaje Relax Orientales</h2>
+            <p>Disfrute de este exclusivo combo de Masajes Relax Orientales, con Recorido Spa opcional,  y experimente una sensación de calma y equilibrio que rejuvenecerá su cuerpo y mente.</p>
+            <p class="precio">$100€</p>
+            <button onclick="agregarAlCarrito(1)">Agregar al Carrito</button>
+        </article>
+        
+        <!-- Carrito de compras -->
+        <div id="carrito">
+            <h2>Carrito de Compras</h2>
+            <ul id="lista-carrito">
+            <!-- lista de productos -->
+            </ul>
+            <p id="total">Total: $0.00</p>
+            <button onclick="realizarCompra()">Realizar Compra</button>
+        </div>
+    </section>
+</section>
+
+    <section id="contacto" class="py-5 text-center">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Número de Teléfono:</label>
+                    <input type="tel" class="form-control" id="telefono" required>
+                </div>
+                <button type="submit" class="btn btn-pink">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+</section>
+
+    <footer class="bg-pink text-black text-center py-3">
+        <p>&copy; 2023 SpaMar. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+</html>

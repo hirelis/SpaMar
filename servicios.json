@@ -1,0 +1,30 @@
+{
+    "servicios": [
+      {
+        "nombre": "Circuito Spa",
+        "descripcion": "Disfruta de un circuito completo de relajación que incluye sauna, jacuzzi y baño de vapor.",
+        "imagen": "img/circuito_spa.jpg"
+      },
+      {
+        "nombre": "Circuito Spa + Masaje",
+        "descripcion": "Combina las bondades de nuestro circuito spa con un masaje personalizado para una experiencia inigualable.",
+        "imagen": "img/circuito_masaje.jpg"
+      },
+      {
+        "nombre": "Masajes",
+        "descripcion": "Descubre una variedad de masajes diseñados para aliviar tensiones y revitalizar tu cuerpo y mente.",
+        "imagen": "img/masajes.jpg"
+      },
+      {
+        "nombre": "Spa y Comida",
+        "descripcion": "Vive el lujo de nuestro spa acompañado de exquisitas opciones gastronómicas, ya sea desayuno, almuerzo o cena.",
+        "imagen": "img/spa_comida.jpg"
+      },
+      {
+        "nombre": "Rituales",
+        "descripcion": "Sumérgete en rituales exclusivos que renuevan tu bienestar a través de tratamientos especializados y relajantes.",
+        "imagen": "img/rituales.jpg"
+      }
+    ]
+  }
+  
